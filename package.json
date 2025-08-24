@@ -1,0 +1,14 @@
+{
+  "name": "nooro-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ehwreck/nooro-be",
+  "author": "Erick Trevino <erick.trevino@cloudlite.io>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
