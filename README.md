@@ -122,4 +122,4 @@ For any questions, feedback, or issues, feel free to reach out:
 
 **Your Name**  
 📧 [erick_trivi1010@hotmail.com](mailto:erick_trivi1010@hotmail.com)  
-🔗 [Github Profile](https://github.com/ehwreck)
+🔗 [ehwreck](https://github.com/ehwreck)
