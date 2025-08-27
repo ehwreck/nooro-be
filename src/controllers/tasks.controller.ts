@@ -1,10 +1,16 @@
 import type { Request, Response } from "express";
+import { PrismaClient } from '../../generated/prisma/index.js';
 
-export const index = (req: Request, res: Response) => {
-  res.status(200).json();
+const prisma = new PrismaClient();
+
+
+export const index = async(req: Request, res: Response) => {
+  const allTasks = await prisma.task.findMany();
+  res.status(200).json({ tasks: allTasks });
 };
 
 export const create = (req: Request, res: Response) => {
+
   res.status(200).json();
 };
 
