@@ -1,5 +1,9 @@
 # Ignore node_modules
 /node_modules
 
+# Environment Variable Files
+/.env
+
 # Dist directory
 /dist
+/generated/prisma
