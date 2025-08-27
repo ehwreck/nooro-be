@@ -121,5 +121,5 @@ This project is licensed under the **MIT License**.
 For any questions, feedback, or issues, feel free to reach out:
 
 **Your Name**  
-📧 [your.email@example.com](mailto:erick_trivi1010@hotmail.com)  
-🔗 [Your GitHub Profile](https://github.com/ehwreck)
+📧 [erick_trivi1010@hotmail.com](mailto:erick_trivi1010@hotmail.com)  
+🔗 [Github Profile](https://github.com/ehwreck)
