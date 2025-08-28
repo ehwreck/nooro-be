@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Task` ADD COLUMN `color` VARCHAR(191) NOT NULL DEFAULT 'white';

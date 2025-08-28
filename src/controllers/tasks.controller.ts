@@ -9,6 +9,7 @@ type Task = {
   title: string;
   description?: string;
   completed?: boolean;
+  color: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -27,6 +28,7 @@ export const create = async(req: Request, res: Response) => {
         title: task.title,
         description: task.description ?? null,
         completed: false,
+        color: task.color,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -51,6 +53,7 @@ export const update = async(req: Request, res: Response) => {
         title: task.title,
         description: task.description,
         completed: task.completed,
+        color: task.color,
         updatedAt: new Date()
       }
     })
