@@ -50,6 +50,7 @@ export const update = async(req: Request, res: Response) => {
       data: {
         title: task.title,
         description: task.description,
+        completed: task.completed,
         updatedAt: new Date()
       }
     })
