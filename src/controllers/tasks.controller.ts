@@ -19,6 +19,22 @@ export const index = async(req: Request, res: Response) => {
   res.status(200).json({ tasks: allTasks });
 };
 
+export const show = async(req: Request, res: Response) => {
+  const { taskId } = req.params;
+
+  try{
+    const task = await prisma.task.findUnique({
+      where: {
+        id: Number(taskId)
+      },
+    })
+
+    res.status(200).json({ message: "Task found", task });
+  } catch(e) {
+    res.status(404).json({ error: "Task not found" })
+  }
+}
+
 export const create = async(req: Request, res: Response) => {
   const { task }: { task: Task } = req.body;
 
